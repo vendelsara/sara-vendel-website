@@ -1,0 +1,39 @@
+
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", cursive;
+  color: #3b145f;
+}
+
+/* The Pixi canvas sits behind the text */
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+main {
+  position: relative;
+  max-width: 40rem;
+  padding: 2rem;
+}
+
+/* main heading */
+h1 {
+  color: #3b145f;
+  font-family: "Comic Sans MS", cursive;
+}
+
+/* section headings */
+h2 {
+  color: #3b145f;
+  font-family: "Comic Sans MS", cursive;
+}
+
+/* paragraphs and list items */
+p, li {
+  color: #3b145f;
+  font-family: "Comic Sans MS", cursive;
+}
