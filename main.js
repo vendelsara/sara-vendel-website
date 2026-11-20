@@ -60,5 +60,5 @@ app.ticker.add(() => {
   }
 
   // Fill all hearts with pink
-  hearts.fill("#ff69b4");
+  hearts.fill("#fdcce4");
 });
